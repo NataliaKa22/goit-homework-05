@@ -615,7 +615,7 @@ h6 {
 .footer-btn:hover,
 .footer-btn:first {
     color: #404BBF;
-    background-color: #404bbf;
+    border-color: #404BBF;
 
 
 }
