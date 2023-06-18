@@ -391,9 +391,10 @@
                <div class="footer-subscribe">
                     <p class="subscribe-title">Subscribe</p>
                     <form class="footer-form">
-                         <label for="footer-email" aria-label="footer email" class="footer-label"></label>
-                         <input type="email" name="footer-email" id="footer-email" placeholder="E-mail"
-                              class="footer-input" />
+                         <label for="footer-email" class="footer-label">
+                              <input type="email" name="footer-email" id="footer-email" placeholder="E-mail"
+                                   class="footer-input" />
+                         </label>
                          <button type="submit" class="footer-btn">Subscribe
                               <svg class="footer-icon" width="24" height="24">
                                    <use href="./images/icons.svg#icon-Frame"></use>
@@ -441,18 +442,19 @@
                          </div>
                     </div>
                     <div class="modal-field">
-                         <label class="modal-label">Comment</label>
-                         <textarea name="Text-input" placeholder="Text input" class="modal-textarea"></textarea>
+                         <label for="user-comment" class="modal-label">Comment</label>
+                         <textarea name="user-comment" placeholder="Text input" class="modal-textarea"
+                              id="user-comment"></textarea>
                     </div>
-                    <div class="modal-field">
-                         <input type="checkbox" name="policy" id="policy" class="input-check visually-hidden"
-                              value="true" />
-                         <label for="policy" class="check-text"> <span>
+                    <div class="checkbox">
+                         <input type="checkbox" name="user-privacy" id="user-privacy"
+                              class="input-check visually-hidden" value="true" />
+                         <label for="user-privacy" class="check-text"> <span class="check-span">
                                    <svg class="check-icon" width="10" height="8">
                                         <use href="./images/icons.svg#icon-Vector"></use>
                                    </svg>
-                              </span> accept the terms and conditions of the
-                              <a href="">Privacy Policy</a></label>
+                              </span> I accept the terms and conditions of the
+                              <a href="" class="check-logo">Privacy Policy</a></label>
                     </div>
 
                     <button type="submit" class="modal-btn">Send</button>
